@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Todo paths",
+  "description": "Schema for the list of todo file paths.",
+  "type": "object",
+  "properties": {
+    "paths": {
+      "description": "The list of paths.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "description": "The identifier for a todo path.",
+            "type": "string"
+          },
+          "path": {
+            "description": "The path for the todo.json file.",
+            "type": "string"
+          }
+        },
+        "required": ["identifier", "path"]
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": ["paths"]
+}

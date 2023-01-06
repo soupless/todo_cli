@@ -1,0 +1,28 @@
+Folder PATH listing for volume OS
+Volume serial number is 3002-F5C3
+
+todo_cli
+|   .flake8
+|   LICENSE
+|   pyproject.toml
+|   readme.md
+|   requirements.txt
+|   setup.cfg
+|   tree.txt
+|   
++---src
+|   +---assets
+|   |       paths.json
+|   |       paths.schema.json
+|   |       
+|   +---todo_cli
+|   |   |   __init__.py
+|   |   |   __main__.py
+|   |   |   
+|   |   \---commands
+|   |           group.py
+|   |           task.py
+|   |           __init__.py
+|   |           
+\---tests
+        sample.py
